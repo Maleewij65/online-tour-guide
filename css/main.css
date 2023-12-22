@@ -1,0 +1,173 @@
+html
+{
+    font-size: 62.5%; 
+}
+
+body
+{
+    box-sizing: border-box;
+    margin: 0 0;
+    font-family: "Poppins";
+    background-color: #edf6f9;
+}
+.wrapper
+{
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+/*navigation bar*/
+header
+{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color:#83C5BE ;
+    background: linear-gradient(135deg,#83C5BE,#006D77,#83C5BE);
+    background-size: 150% 150%;
+    animation: gradientAnimation 15s ease infinite;
+    border-radius: 0.5em;
+    padding:3em 0;
+    margin-bottom: 5em;
+    margin-top: 3em;  
+}
+
+
+
+nav{
+    margin:4px;
+}
+nav ul
+{
+    margin:0;
+    list-style-type: none;
+    display: flex;
+    gap: 5em;
+    padding-right: 2em;
+    
+}
+nav a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    color:#EDF6F9;
+    transition: 0.2s;
+}
+nav a:hover
+{
+    color:lightblue;
+}
+#logo
+{
+    margin-top: 2em;
+    width:100%;
+    height:10em;
+    transition: 0.5s;
+}
+#logo:hover
+{
+    transform: translateX(20%);
+}
+
+
+/*footer*/
+
+
+.foot-main
+{
+    display: flex;
+    justify-content: space-between;
+    background-image: url("../images/footer_1.png");
+    background-size: 100%;
+    background-color: #83C5BE;
+    border-radius: 0.5em;
+    padding:1em 2em 2em 2em;
+    margin-top: 5em;
+    margin-bottom: 0.5em;
+}
+
+.right-foot
+{
+    text-align: right;
+}
+.dev-rights
+{
+    text-align: center;
+    border-radius: 0.25em;
+    background-color:#006D77;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    color: white;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    
+}
+footer h3
+{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    color: #006D77;
+    margin-left: 1.5em;
+}
+footer p
+{
+    font-size: 1.2rem;
+    color:#EDF6F9;
+}
+footer h4
+{
+    font-size:1.0rem;
+    font-weight: 700;
+}
+footer textarea
+{
+    border-radius: 0.5em;
+    border-color: #006D77;
+    background-color: #EDF6F9;
+}
+footer input
+{
+    border-radius:0.2em;
+    width: 7.5em;
+    height: 2em;
+    color: #EDF6F9;
+    background-color: #006D77;
+}
+
+
+/*genaral classes to be called*/
+
+.tt-text
+{
+    font-family: "Irish Grover";
+    font-size: 3.6rem;
+}
+.hide
+{
+    visibility: hidden;
+}
+.warning
+{
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 1.2rem;
+    border-radius: 0.3em;
+    border: none;
+    background: linear-gradient(90deg,#fafafa,#96eed6,#fdfdfd);
+    background-size: 150% 150%;
+    animation: gradientAnimation 5s ease infinite;
+    color: rgb(247, 93, 55);
+}
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }

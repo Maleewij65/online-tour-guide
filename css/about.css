@@ -1,0 +1,39 @@
+main
+{
+    display:flex;
+    justify-content: space-around;
+    max-width: auto;
+    font-family: 'Poppins';
+    align-items: center;
+}
+
+.left-side
+{
+    opacity: 0.8;
+    background-color:#83C5BE;
+    border-radius: 1em;
+    height: auto;
+    padding: 2%;
+    max-width: 55%;
+    
+}
+.left-side p
+{
+    font-weight: 400;
+    font-size: medium;
+}
+.right-side
+{
+    border-radius: 1em;
+}
+.right-side img
+{
+    border-radius: 1em;
+}
+
+#about_back
+{
+    position: absolute;
+    width: 1200px;
+    z-index: -1;
+}

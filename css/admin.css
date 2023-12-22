@@ -1,0 +1,224 @@
+main
+{
+    display: flex;
+    justify-content: space-between;
+    gap:3em;
+    height: auto;
+    margin-bottom: 10em;
+}
+
+.left-side
+{
+    width:55em;
+    max-width: 48%;
+    background-color: #006D77;
+    font-family: "Poppins";
+    color: rgb(237, 246, 249);
+    border-radius: 1em;
+    box-shadow: 20px 20px 30px rgb(131, 197, 190);
+    transition: 0.3s;
+}
+.right-side
+{
+
+    width:55em;
+    max-width:48%;
+    background-color:#FFDDD2;
+    border-radius: 1em;
+    box-shadow: 20px 20px 30px rgb(226, 149, 120);
+    transition: 0.3s;
+}
+
+.left-side:hover
+{
+    transform: scale(1.1);
+    border-color: black;
+    
+}
+.right-side:hover
+{
+    transform: scale(1.1);
+}
+
+.upper-sec
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pic-sec
+{
+    width:30%;
+    height: 20em;
+    background-color: black;
+    transition: 0.3s;
+}
+.pic-sec:hover
+{
+    transform: translate(-15%);   
+}
+
+
+#profile-pic
+{
+    width:100%;
+    height:100%;
+}
+.details-sec
+{padding: 5%;
+    width:60%;
+    height:20em; 
+}
+.down-sec
+{
+    padding: 5%;
+    display: grid;
+    align-items:space-evenly;
+}
+.site-ctrl-sec
+{
+    padding: 5%;
+}
+.site-ctrl-sec a
+{
+    text-decoration: none;
+}
+.site-ctrl-sec h3
+{
+    transition: 0.4s;
+}
+.site-ctrl-sec h3:hover
+{
+    transform: translate(10%);
+}
+
+.site-overview-sec
+{
+    padding: 5%;
+}
+.package-manager-container td
+{
+    font-family: "Poppins";
+    background-color: #FFDDD2;
+    padding: 0.3em;
+    font-size: 1.8rem;
+    justify-items: center;
+    border-radius: 0.3em;
+
+}
+#rem-btn:hover
+{
+    background-color: rgb(250, 126, 126);
+}
+#app-btn:hover
+{
+    background-color: #4df8a2;
+}
+#tr-pkg
+{
+    font-weight: 700;
+}
+
+.cd-container
+  {
+    position:fixed;
+    left: 50%;
+    top:50%;
+    width : 30%;
+    transform: translate(-50%,-50%);
+    border-radius: 2em;
+    background-color:#E29578 ;
+    padding:1em;
+  }
+  .cd-tittle
+  {
+    display: flex;
+    justify-content: space-between;
+    padding:1em;
+    height:10%;
+    
+  }
+  .cd-form
+  {
+     display: grid;
+     align-items: center;
+     justify-items: center;
+     margin-top: 0.3em;
+     background-color: #FFDDD2;
+     padding:0.5em;
+  }
+  .cd-form input
+  {
+     font-family: "Poppins";
+     width:98.5%;
+     margin-bottom: 0;
+     background-color: #83C5BE;
+     border-radius: 0.5em;
+     border: normal;
+     padding: 0.2em;
+  }
+  .cd-form textarea
+  {
+    font-family: "Poppins";
+    width:98.5%;
+    margin-bottom: 0;
+    background-color: #83C5BE;
+    border-radius: 0.5em;
+    padding: 0.2em;
+  }
+
+  
+#pwd-reset
+{
+    margin: 0 auto;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    position:fixed;
+    width: 20%;
+    max-height: 30%;
+    
+}
+
+.reset-container
+{
+    display: grid;
+    align-items: center;
+    
+}
+.reset-tittle
+{
+    display: flex;
+    padding:1em;
+    justify-content: space-between;
+    background-color: #006D77;
+    color: white;
+    margin-bottom: 1em;
+    border-radius: 1em;
+}
+.reset-tittle button
+{
+    height: 3em;
+    background: #83C5BE;
+    font-weight: 700;
+    color: gray;
+}
+.reset-form
+{
+    display: grid;
+    padding:1em;
+    align-items: flex-end;
+    background-color: #83C5BE;
+    border-radius: 1em;
+    
+}
+.reset-form input
+{
+    width: 100%;
+    margin-top: 0.3em;
+    height: 2em;
+    border: none;
+    background: linear-gradient(135deg,#FFDDD2,#E29578,#FFDDD2);
+    background-size: 300% 300%;
+    animation: gradientAnimation 20s ease infinite;
+}

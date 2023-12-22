@@ -1,0 +1,347 @@
+main
+{
+    display: flex;
+    justify-content: space-between;
+    gap:3em;
+    height: auto;
+    margin-bottom: 10em;
+}
+
+.left-side
+{
+    width:55em;
+    max-width: 48%;
+    background: linear-gradient(135deg,#006D77, #b3a4dd,#006D77);
+    background-size: 300% 300%;
+    animation: gradientAnimation 20s ease infinite;
+    color: #fafafa;
+    font-family: "Poppins";  
+    border-radius: 1em;
+    box-shadow: 20px 20px 30px rgb(131, 197, 190);
+    transition: 0.3s;
+}
+.right-side
+{
+
+    width:55em;
+    max-width:48%;
+    background: linear-gradient(135deg,#E29578,#FFDDD2,#E29578);
+    background-size: 300% 300%;
+    animation: gradientAnimation 20s ease infinite;
+    border-radius: 1em;
+    box-shadow:20px 20px 30px rgb(226, 149, 120);
+    transition: 0.3s;
+}
+
+.left-side:hover
+{
+    transform: scale(1.1);
+    border-color: black;
+    
+}
+.right-side:hover
+{
+    transform: scale(1.1);
+}
+
+.upper-sec
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pic-sec
+{
+    width:30%;
+    height: 20em;
+    background-color: black;
+    transition: 0.3s;
+}
+.pic-sec:hover
+{
+    transform: translate(-15%);   
+}
+
+
+#profile-pic
+{
+    width:100%;
+    height:100%;
+}
+.details-sec
+{padding: 5%;
+    width:60%;
+    height:20em; 
+}
+.down-sec
+{
+    padding: 5%;
+    display: grid;
+    align-items:space-evenly;
+}
+.site-ctrl-sec
+{
+    padding: 5%;
+}
+.site-ctrl-sec a
+{
+    text-decoration: none;
+}
+.site-ctrl-sec h3
+{
+    transition: 0.4s;
+}
+.site-ctrl-sec h3:hover
+{
+    transform: translate(10%);
+}
+
+.site-overview-sec
+{
+    padding: 5%;
+}
+.pkg-creater
+{
+    border-radius: 1em;
+    display: flex;
+    justify-content: space-between;
+    background-size: 150% 150%;
+    animation: gradientAnimation 20s ease infinite;
+    background-image: url("../images/sky.png");
+    padding: 1em;
+}
+.pkg-creater input,textarea
+{
+    font-family: "Poppins";
+    font-weight: 400;
+}
+.pkg-form
+{
+    background-color: #006D77;
+    border-radius: 1em;
+    padding: 2em;
+}
+.major-sec-wrapper
+{
+    display: flex;
+    gap:1em;
+    justify-content: space-between;
+    background-color:#FFDDD2;
+    border-radius: 1em;
+    box-shadow:5px 5px 10px #83C5BE;
+    margin-bottom: 1em;
+}
+.left-sec-msw
+{
+    background-color:#83C5BE;
+    padding: 0.2em;
+    border-radius: 1em; 
+}
+.durx
+{
+    display: flex;
+    gap: 2em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.end-sec-wrapper
+{
+    display: grid;
+    gap:0.02em;
+}
+.end-sec-wrapper input
+{
+    width:100%;
+    border-radius: 0.2em;
+    border:#006D77;
+    margin-bottom: 0.4em;
+    background: linear-gradient(135deg,#d15be6,#c1ed54e0,#d15be6);
+    background-size: 300% 300%;
+    animation: gradientAnimation 20s ease infinite;
+    color:ivory;
+    
+}
+#pkgName
+{
+    height :1.8em;
+    width: 100%;
+    font-size: 1.4rem;
+    border-radius: 0.4em;
+    margin-bottom: 1em;
+    border: none;
+    background: linear-gradient(135deg,#7bc855,#4ff1bbe0,#7bc855);
+    background-size: 300% 300%;
+    animation: gradientAnimation 20s ease infinite;
+}
+.middle-sec-wrapper
+{
+    display: grid;
+    gap: 0.002em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+.middle-sec-wrapper textarea
+{
+    width: 100%;
+    border-radius: 0.4em;
+    background-color: #FFDDD2;
+}
+.request-wrapper
+{
+    max-width: 40em;
+    max-height: 100%;
+    display: grid;
+    align-items:end;
+}
+.request-wrapper #bpic
+{
+    width: 100%;
+    height: 80%;
+}
+
+#pwd-reset
+{
+    margin: 0 auto;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    position:fixed;
+    width: 20%;
+    max-height: 30%;
+    
+}
+
+.reset-container
+{
+    display: grid;
+    align-items: center;
+    
+}
+.reset-tittle
+{
+    display: flex;
+    padding:1em;
+    justify-content: space-between;
+    background-color: #006D77;
+    color: white;
+    margin-bottom: 1em;
+    border-radius: 1em;
+}
+.reset-tittle button
+{
+    height: 3em;
+    background: #83C5BE;
+    font-weight: 700;
+    color: gray;
+}
+.reset-form
+{
+    display: grid;
+    padding:1em;
+    align-items: flex-end;
+    background-color: #83C5BE;
+    border-radius: 1em;
+    
+}
+.reset-form input
+{
+    width: 100%;
+    margin-top: 0.3em;
+    height: 2em;
+    border: none;
+    background: linear-gradient(135deg,#FFDDD2,#E29578,#FFDDD2);
+    background-size: 300% 300%;
+    animation: gradientAnimation 20s ease infinite;
+}
+.cd-container
+{
+    margin: 0 auto;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    position:fixed;
+    width: 20%;
+    background-color: #E29578;
+    border-radius: 1em;
+}
+.cd-tittle
+{
+    background-color: #006D77;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    height: 3%;
+    align-items: center;
+    margin-bottom: 1em;
+}
+.cd-form-container
+{
+    padding:1em;
+    background-color: #83C5BE;
+    border-radius: 1em;
+    display: grid;
+    align-items: center;
+}
+.cd-form-container input
+{
+    margin:0.25em 10%;
+    width: 80%;
+    border-radius: 0.2em;
+    height:5%;
+    font-family: "Poppins";
+    color:black;
+    background: linear-gradient(135deg,#FFDDD2,#E29578,#FFDDD2);
+    background-size: 300% 300%;
+    animation: gradientAnimation 20s ease infinite;
+    
+}
+.cd-form-container input:focus
+{
+    background: linear-gradient(135deg,#FFDDD2,#7eeaa0,#FFDDD2);
+    background-size: 300% 300%;
+    animation: gradientAnimation 20s ease infinite;
+    
+}
+.cd-container textarea 
+{
+    margin:0.25em 10%;
+    width:80%;
+    border-radius: 0.2em;
+    font-family: "Poppins";
+    color:black;
+    background: linear-gradient(90deg,#FFDDD2,#E29578,#FFDDD2);
+    background-size: 300% 300%;
+    animation: gradientAnimation 20s ease infinite;
+}
+.cd-container textarea:focus
+{   
+    background: linear-gradient(90deg,#FFDDD2,#7eeaa0,#FFDDD2);
+    background-size: 300% 300%;
+    animation: gradientAnimation 20s ease infinite;
+}
+.payment-container td
+{
+    font-family: "Poppins";
+    background-color: #FFDDD2;
+    padding: 0.3em;
+    font-size: 1.8rem;
+    justify-items: center;
+    border-radius: 0.3em;
+}
+
+
+
+
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+

@@ -1,0 +1,361 @@
+main
+{
+    min-height: 70em;
+}
+
+
+
+.package-container
+{
+    padding: 0 0;
+    /*width:36.6em;*/
+    width:30%;
+    height: 40%;
+    margin-bottom: 2em;
+    transition: 0.3s;
+
+    .package-dest
+    {
+        display: flex;
+        background-color: #006D77;
+        color: white;
+        margin:0 0;
+        width :60%;
+        height:2em;
+        font-size: 1.2rem;
+        gap:0.5em;
+        border-top-left-radius: 0.5em;
+        align-items: center;
+    }
+    
+}
+.package-container:hover
+{
+    transform: scale(1.1);
+}
+.package-container-scroll
+{
+    transform: scale(0.8);
+}
+
+
+.package-dest
+{
+    box-shadow: 5px 5px 20px rgb(0, 109, 119);
+}
+.package-dest img
+{
+    padding-left: 0.2em;
+    width: 7%;
+    height: 80%;
+}
+.package-mid-sec
+{
+        margin-top: 0.5em;
+        height:50%;
+        display: flex;
+        justify-content: space-between;
+        background-color: #83C5BE;
+        gap :0.5em;
+        border-top-right-radius: 1em;
+        box-shadow: 5px 5px 20px rgb(0, 109, 119);
+}
+.package-disc
+{
+    overflow: auto;
+}
+.package-disc::-webkit-scrollbar
+{
+    width:2px;
+}
+.package-disc:-webkit-scrollbar-track
+{
+    background: #006D77;
+}
+.package-disc:-webkit-scrollbar-thumb
+{
+    background: #006D77;
+}
+.package-disc h5
+{
+    margin-bottom: auto;
+    font-size: 1.1rem;
+}
+.package-disc p
+{
+    font-size: 1rem;
+}
+.dest-pic
+{
+    min-width: 40%;
+    max-width:50%;  
+    max-height: 50%;
+}
+
+.package-container h4
+{
+    margin: 0 0;
+}
+#package-img
+{
+
+    max-width :100%;
+    height : 100%;
+}
+.package-end-sec
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFDDD2;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    font-size: 1.5rem;
+    padding: 2px 15px;
+    text-transform: uppercase;
+    margin-top: 0.5em;
+    box-shadow: 5px 5px 20px rgb(226, 149, 120);
+}
+.pkg-ctrl
+{
+    margin-top: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.pkg-ctrl button
+{
+    width:20%;
+    height:2em;
+    border-style:solid;
+    border-color: #FFDDD2;
+    border-radius: 0.2em;
+    background-color: #E29578 ;
+    text-transform: lowercase;
+    color: white;
+}
+
+
+/*pop up view of tour packages*/
+
+.pop-up-tour
+{
+    margin: 0 auto;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    position:fixed;
+    background-color: white;
+    border-style: bold;
+    border: #006D77;
+    max-width:60%;
+    height: auto;
+    z-index: 1; 
+    border-radius:1em; 
+    box-shadow: 10px 10px 20px rgb(0, 109, 119);
+    /*visibility: visible;*/
+}
+.pop-up-enable
+{
+    visibility: visible;
+}
+.pop-up-disable
+{
+    visibility: hidden;
+}
+.pop-up-top
+{
+    padding: 1em;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #006D77;
+    color: white;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    margin-bottom: 0.2em;
+}
+.pop-up-sumerry
+{
+    background-color: #E29578;
+    height:15%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right:10%;
+}
+.pop-up-mid
+{
+    background-color: #FFDDD2;
+    display: grid;
+    padding: 2% 2%;
+    height :auto;
+}
+.pop-up-mid h4
+{
+    font-size:small;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+.pop-up-mid p
+{
+    margin-top: 0;
+    font-size:1.1rem;
+    margin-bottom: 0.5rem;
+}
+.pop-up-bottom
+{
+    background-color: #83C5BE;
+    display: flex;
+    gap:5em;
+    height: auto;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em ;
+    align-items: center;
+
+}
+.guide-sec
+{
+    width:58%;
+    padding:5%;
+}
+.activities
+{
+    max-height: 100px;
+    overflow: auto;
+}
+.reviews-package
+{
+    max-height: 200px;
+    overflow: auto;
+}
+#pkg-id
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #E29578;
+    width: 30%;
+    height: 100%;
+    border-radius: 1em;
+    border: #E29578;
+    box-shadow: 2px 2px 5px rgb(226, 149, 120);
+}
+#pkg-img-pop
+{
+    width: 40%;
+    height: 30%;
+}
+
+.tp-results-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+#review-container {
+    margin: 0 auto;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    position:fixed;
+    width: 400px;
+    background-color: #f0e6d2;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 3;
+  }
+
+#review-container label {
+    display: block;
+    margin-bottom: 10px;
+    color: #006400;
+  }
+  #review-container input
+  {
+    width:98%;
+  }
+#review-container select,
+#review-container input[type="text"],
+#review-container textarea {
+    width: 98%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+#review-container textarea {
+    height: 100px;
+  }
+.review-btn
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#review-container input[type="submit"] {
+    width:30%;
+    background-color: #006400;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+#review-container input[type="submit"]:hover {
+    background-color: #008000;
+  }
+
+  #review-container button {
+    background-color: #f0936b;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+#review-container button:hover {
+    background-color: #f66929;
+  }
+
+  .tour-form {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #f0e6d2;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  .tour-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #006400;
+  }
+
+  .tour-form input[type="text"],
+  .tour-form textarea {
+    width: 98%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .tour-form textarea {
+    height: 100px;
+  }
+
+  .tour-form input[type="submit"] {
+    background-color: #006400;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .tour-form input[type="submit"]:hover {
+    background-color: #008000;
+  }

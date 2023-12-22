@@ -1,0 +1,96 @@
+
+.payment-interface-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFDDD2;
+    padding: 3em;
+    box-shadow: 10px 10px 30px #E29578;
+}
+
+.payment-container
+{
+    width :50%;
+    font-size: medium;
+    font-weight: 700;
+}
+
+.payment-container h3
+{
+    margin-top: 0.1em;
+    padding: 0;
+    margin-bottom: 0.1em;
+}
+.lb
+{
+    display: flex;
+    justify-content: space-between;
+}
+.lb input
+{
+    width: 30%;
+}
+
+.book-now-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ff5a5f;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .book-now-btn:hover {
+    background-color: #f84a4f;
+  }
+
+  .dropdown-select {
+    
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+    color: #333333;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  
+  .dropdown-select:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #ff5a5f;
+  }
+  
+  .dropdown-select option {
+    background-color: #ffffff;
+    color: #333333;
+    font-weight: normal;
+  }
+  
+  .dropdown-select option:hover {
+    background-color: #ff5a5f;
+    color: #ffffff;
+  }
+  .ctr
+  {
+    margin-top: 5em;
+    padding: 3em;
+    display: flex;
+    justify-content: space-around;
+    border-style:dashed;
+    border-width: 0.4em;
+    border-color: #f5f5f5;
+    border-radius: 2em;
+    background-color: rgb(148, 139, 139);
+  }
+  
+  
+  
+  

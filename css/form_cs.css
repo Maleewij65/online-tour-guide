@@ -1,0 +1,49 @@
+main
+{
+    display: flex;
+    justify-content: space-between;
+    height:70em;
+}
+.form-side h1
+{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.form-side
+{
+    background-color: #FFDDD2;
+    border-radius: 2em;
+    height:70%;
+    width: 35%;
+    box-shadow: 20px 20px 40px rgb(131,197,190);
+    padding:10em;
+}
+.sign-up-form input
+{
+    height: 2em;
+    margin:0.4em 0.8em;
+    align-items: center;
+    border-style: double;
+    border-color:#83C5BE ;
+    
+}
+input[type="text"]:focus{
+    /* Styles to apply when the input field is selected */
+    border: 2px solid #006D77;
+    background-color: aquamarine;
+}
+.sign-up-form label
+{
+    font-size: medium;
+}
+.sign-up-form button
+{
+    margin:2em 0.8em;
+    height: 3em;
+    width:8em;
+    color:white;
+    text-transform: uppercase;
+    background-color:#006D77;
+    border-radius: .5em;
+}

@@ -1,0 +1,98 @@
+/*home page*/
+
+main
+{
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+main h1
+{
+    color:black;
+}
+
+.left-side
+{
+    max-width: 55.3em;
+}
+
+.left-side h1
+{
+    font-family: "Irish Grover";
+    font-size: 3.6rem;
+}
+.left-side p
+{
+    font-size: 1.6rem;
+}
+.search-bar form
+{
+    width: 75%;
+    margin: 0 auto;
+}
+#dest
+{
+    border-radius: 25em;
+    width: 20em;
+    height: 3.5em;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: "Irish Grover";
+    font-size: 1.5rem;
+    color: #E29578;
+    background-color: #FFDDD2;
+
+}
+#go-btn
+{
+    border-radius: 25em;
+    width: 4.5em;
+    height: 4.2em;
+    background-color: #E29578;
+    color:white;
+    border-color: #006D77;
+}
+
+#map
+{
+    width: 500px; 
+    height: 800px;
+    border-radius: 2em;
+    border-style: solid;
+    border-color: black;
+}
+.tour-wrapper
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 10px 10px 20px rgb(226, 149, 120);
+}
+.tour-wrapper img
+{
+    height: 30em;
+    width:20em;
+    border-radius: 0.5em;
+    border-color: #006D77;
+}
+.hero-sec 
+{
+    
+    border-radius: 0.5em;
+    background-color: #FFDDD2;
+    padding: 2em;
+    
+}
+.promo
+{
+    max-width: 1200px;
+    margin:0 auto;
+}
+.promo video
+{
+    padding-top: 5em;
+    border-radius: 0.5em;
+    width:100%;
+    
+}
